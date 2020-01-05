@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationAssignment"  verbose="1" >
+  <test thread-count="5" name="Amazon and Flipkart">
+    <classes>
+      <class name="com.qa.testcases.ComparePricesForWebsitesTest"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="TripAdvisor">
+    <classes>
+       <class name="com.qa.testcases.HotelReviewTest"/>
+    </classes>
+  </test> 
+</suite> 
